@@ -1,0 +1,1379 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TEDIS",
+		"_postman_id": "97c259a0-be9d-f670-1fec-c4f6b399a97b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hasta-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "logtedis-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/logtedis/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "MsgZamanliMesajKalip-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "NitGozlemDeger-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "NitHastaCihaz-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "NitHastaKomplikasyon-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "NitKompliksyonTedavi-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SecProfile-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "SecUser-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TipCihaz-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TipGozlem-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TipOlay-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TipTedavi-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "TipTedaviSonuc-get",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "hasta-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajkalip-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitgozlemdeger-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastacihaz-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastakomplikasyon-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitkomplikasontedavi-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secprofil-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secuser-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipcihaz-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipgozlem-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipolay-delet",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavi-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavisonuc-delete",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "filterbykurumkurulusid",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/filter_by_kurumkurulus/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "hasta-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/3",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"tcno\": 59335505232,\n    \"ad\": \"Ersin\",\n    \"soyad\": \"Aksoy\",\n    \"dogtar\": \"1976-06-27\",\n    \"uyruk\": \"TURK\",\n    \"aciklama\": \"bu bir iki üc dort\",\n    \"kurumKurulus\": {\n        \"id\": 1,\n        \"ad\": \"Kurum 1\",\n        \"kod\": null,\n        \"adres\": null,\n        \"tel\": null\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 1,\n        \"ad\": \"Kurum 1\",\n        \"kod\": \"K1\",\n        \"adres\": \"bu bir adres ve bu de ikinci adres\",\n        \"tel\": \"2132445\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"baslik\": \"SelamX\",\n    \"icerik\": \"Ahnda\",\n    \"basGonderiZamani\": \"2000-01-01\",\n    \"sonGonderiZamani\":\"2000-01-01\",\n    \"gerceklesmeZamani\": null,\n    \"hasta\": {\"id\":3},\n    \"mesajDurum\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"hasta\": {\n        \"id\": 1\n    },\n    \"mesajKalip\": {\n        \"id\": 1\n    },\n    \"mesajDurum\": \"GONDERILDI\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajkalip-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"baslik\": \"SELAM11111\",\n    \"icerik\": \"KALIP\",\n    \"basGonderiZamani\": \"2019-01-01\",\n    \"sonGonderiZamani\":  \"2019-01-31\",\n    \"yilAyGunSaatDakikaPattern\": \"* * * * *\", \n    \"queryhql\": \"select * from hede\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitgozlemdeger-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"gozlemTipi\": {\"id\":1},\n    \"hasta\": {\"id\":1},\n    \"strDeger\": \"HAYDE X\",\n    \"blnDeger\": true,\n    \"lngDeger\": 1,\n    \"dblDeger\": null,\n    \"timeDeger\": null,\n    \"gozlemZamani\": \"2019-01-02\",\n    \"kayitZaman\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastacihaz-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"cihazTipi\": {\n        \"id\": 1 \n    },\n    \"hasta\": {\n        \"id\": 3\n    },\n    \"kurumKurulus\":{\n    \t\"id\":1\n    },\n    \"seriNo\": \"1\",\n    \"aciklama\": \"ACIKLAMA X\",\n    \"sonlandirmaGerekcesi\": \"1\",\n    \"baslangicZamani\": \"2019-01-01\",\n    \"sonlanmaZamani\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastakomplikasyon-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":1,\n   \n    \"hasta\": {\n        \"id\": 1 \n    },\n    \"olay\": {\n        \"id\": 1 \n    },\n    \"olayZaman\": \"2019-01-01\",\n    \"olayAciklama\": \"kesin bişey oldu\",\n    \"tedaviAciklama\": \"yeniledik 800K fark yedik\",\n    \"tedaviSonuc\": {\n        \"id\": 1\n    },\n    \"sonucZaman\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitkomplikasontedavi-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"nitHastaKomplikasyon\": {\n        \"id\": 110,\n        \"hasta\": {\n            \"id\": 1\n        },\n        \"olay\": {\n            \"id\": 1\n        },\n        \"olayZaman\": \"2019-06-30T20:20:53.933+0000\",\n        \"olayAciklama\": \"Olay Açıklama Y\",\n        \"tedaviAciklama\": null,\n        \"tedaviSonuc\": {\n            \"id\": 1\n        }\n    },\n    \"tipTedavi\": {\n        \"id\": 1,\n        \"ad\": \"TEDAVİ TİP\",\n        \"kod\": null\n    },\n    \"tedaviAciklama\": \"111\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secprofil-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"name\": \"ROLE X\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secuser-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"username\": \"ersince76\",\n    \"password\": \"1234\",\n    \"name\": \"Ersin\",\n    \"surname\": \"Aksoy\",\n    \"email\": \"ersin.aksoy76@gmail.com\",\n     \n    \"kurumKurulus\": {\"id\":1}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipcihaz-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"ad\": \"Cihaz Tip 1\",\n    \"aciklama\": \"Açıklama\",\n    \"model\": \"Model 1\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipgozlem-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"ad\": \"INR\",\n    \"aciklama\": \"Inr Değeri\",\n    \"veriTip\": \"DOUBLE\",\n    \"checkJs\":\"( val > 100 && val < 200)\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipolay-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"ad\": \"Olay\",\n    \"kod\": \"OLAY 1\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavi-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"ad\": \"Tedavi Tipi\",\n    \"kod\": \"TIP 1\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavisonuc-update",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"ad\": \"Sonuc 2\",\n    \"kod\": \"Kod 2\",\n    \"cihazSonlandirir\": true,\n    \"hastaPasifEder\": true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "hasta-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajkalip-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitgozlemdeger-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastacihaz-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastakomplikasyon-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitkomplikasontedavi-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secprofil-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secuser-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipcihaz-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipgozlem-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipolay-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavi-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavisonuc-enable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc/1/enable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "hasta-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajkalip-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitgozlemdeger-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastacihaz-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastakomplikasyon-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitkomplikasontedavi-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secprofil-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secuser-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipcihaz-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipgozlem-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipolay-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavi-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavisonuc-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-disable",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj/1/disable",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "hasta-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/hasta",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \n    \"tcno\": 59335505232,\n    \"ad\": \"Ersin X\",\n    \"soyad\": \"AKSOY\",\n    \"dogtar\": \"1976-06-27T00:00:00.000+0000\",\n    \"uyruk\": \"TURK\",\n    \"aciklama\": null,\n    \"kurumKurulus\": {\n        \"id\": 1,\n        \"ad\": \"Kurum 1\",\n        \"kod\": null,\n        \"adres\": null,\n        \"tel\": null\n    }\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "kurumkurulus-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/kurumkurulus",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \n        \"ad\": \"Kurum 2 X\",\n        \"kod\": \"K2\",\n        \"adres\": \"12345\",\n        \"tel\": \"1234567\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msghastamesaj-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msghastamesaj",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n    \"baslik\": \"Nasılsın X\",\n    \"icerik\": \"Ahnda\",\n    \"basGonderiZamani\": \"2000-01-01\",\n    \"sonGonderiZamani\":\"2000-01-01\",\n    \"gerceklesmeZamani\": null,\n    \"hasta\": {\"id\":3},\n    \"commStatus\": \"BEKLIYOR\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajalici-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajalici",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \n    \"hasta\": {\n        \"id\": 1 \n    },\n    \"mesajKalip\": {\n        \"id\": 1 \n    },\n    \"gerceklesmeZamani\": null,\n    \"commStatus\": \"AMANS\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "msgzamanlimesajkalip-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/msgzamanlimesajkalip",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \n    \"baslik\": \"AMANS\",\n    \"icerik\": \"KALIP\",\n    \"basGonderiZamani\": \"2019-01-01T00:00:00.000+0000\",\n    \"sonGonderiZamani\": \"2019-01-31T00:00:00.000+0000\",\n    \"yilAyGunSaatDakikaPattern\": \"* * * * *\",\n    \"notIn\": null,\n    \"queryhql\": \"select * from hede\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitgozlemdeger-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitgozlemdeger",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n    \"gozlemTipi\": {\n        \"id\": 1 \n    },\n    \"hasta\": {\n        \"id\": 1 \n    },\n    \"strDeger\": \"HAYDE AAA\",\n    \"blnDeger\": true,\n    \"lngDeger\": 1,\n    \"dblDeger\": null,\n    \"timeDeger\": null,\n    \"gozlemZamani\": \"2019-01-02T00:00:00.000+0000\",\n    \"kayitZaman\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastacihaz-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastacihaz",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \n    \"cihazTipi\": {\n        \"id\": 1,\n        \"ad\": \"Cihaz Tip 1\",\n        \"aciklama\": \"Açıklama\",\n        \"model\": \"Model 1\"\n    },\n    \"hasta\": {\n        \"id\": 3,\n        \"tcno\": 59335505232,\n        \"ad\": \"Ersin\",\n        \"soyad\": \"Aksoy\",\n        \"dogtar\": \"1976-06-27\",\n        \"uyruk\": \"TURK\",\n        \"aciklama\": \"bu bir iki üc dort\",\n        \"kurumKurulus\": {\n            \"id\": 1,\n            \"ad\": \"Kurum 1\",\n            \"kod\": \"K1\",\n            \"adres\": \"bu bir adres ve bu de ikinci adres\",\n            \"tel\": \"2132445\"\n        }\n    },\n    \"kurumKurulus\": {\n        \"id\": 1,\n        \"ad\": \"Kurum 1\",\n        \"kod\": \"K1\",\n        \"adres\": \"bu bir adres ve bu de ikinci adres\",\n        \"tel\": \"2132445\"\n    },\n    \"seriNo\": \"2222\",\n    \"aciklama\": \"ACIKLAMA YYYY\",\n    \"sonlandirmaGerekcesi\": \"1\",\n    \"baslangicZamani\": \"2019-01-01T00:00:00.000+0000\",\n    \"sonlanmaZamani\": null\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nithastakomplikasyon-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nithastakomplikasyon",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{ \r\n    \"hasta\": {\r\n        \"id\": 1,\r\n        \"tcno\": null,\r\n        \"ad\": \"Sun Jun 30 19:12:29 EET 2019\",\r\n        \"soyad\": null,\r\n        \"dogtar\": null,\r\n        \"uyruk\": null,\r\n        \"aciklama\": null,\r\n        \"kurumKurulus\": {\r\n            \"id\": 1,\r\n            \"ad\": \"Kurum 1\",\r\n            \"kod\": \"K1\",\r\n            \"adres\": \"bu bir adres ve bu de ikinci adres\",\r\n            \"tel\": \"2132445\"\r\n        }\r\n    },\r\n    \"olay\": {\r\n        \"id\": 1,\r\n        \"ad\": \"Olay\",\r\n        \"kod\": \"OLAY 1\"\r\n    },\r\n    \"olayZaman\": \"2019-01-01T00:00:00.000+0000\",\r\n    \"olayAciklama\": \"kesin bişey oldu\",\r\n    \"tedaviAciklama\": null,\r\n    \"tedaviSonuc\": {\r\n        \"id\": 1,\r\n        \"ad\": \"Sonuc 2\",\r\n        \"kod\": \"Kod 2\",\r\n        \"cihazSonlandirir\": true,\r\n        \"hastaPasifEder\": true\r\n    },\r\n    \"sonucZaman\": null\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "nitkompliksyontedavi-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/nitkomplikasontedavi",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": ""
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secprofile-create --",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secprofil",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"ROLE Y\"\r\n}\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "secuser-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/secuser",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"id\": 1,\r\n    \"username\": \"ersince761\",\r\n    \"password\": \"456789\",\r\n    \"name\": \"Ersin2\",\r\n    \"surname\": \"Aksoy2\",\r\n    \"email\": \"ersin.aksoy76@gmail.com\" ,\r\n    \"kurumKurulus\": {\r\n        \"id\": 1 \r\n    }\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipcihaz-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipcihaz",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"ad\": \"Cihaz Tip 2\",\r\n    \"aciklama\": \"Açıklama 2\",\r\n    \"model\": \"Model 2\"\r\n}\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipgozlem-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipgozlem",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"ad\": \"INR\",\r\n    \"aciklama\": \"Inr Değeri\",\r\n    \"veriTip\": \"DOUBLE\",\r\n    \"checkJs\": \"( val > 2 && val < 5)\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipolay-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tipolay",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \r\n    \"ad\": \"Olay 2\",\r\n    \"kod\": \"OLAY 12\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavi-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavi",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \r\n    \"ad\": \"Tedavi Tipi 2\",\r\n    \"kod\": \"TIP 21\"\r\n}\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tiptedavisonuc-create",
+			"request": {
+				"url": "http://localhost:8000/rest/v1/tiptedavisonuc",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n     \r\n    \"ad\": \"Sonuc 21\",\r\n    \"kod\": \"Kod 21\",\r\n    \"cihazSonlandirir\": true,\r\n    \"hastaPasifEder\": true\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

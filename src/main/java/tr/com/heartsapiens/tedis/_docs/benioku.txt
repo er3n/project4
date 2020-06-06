@@ -1,0 +1,13 @@
+JPA
+
+https://www.baeldung.com/rest-api-search-language-spring-data-specifications
+müthiş
+https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/
+https://spring.io/blog/2011/04/26/advanced-spring-data-jpa-specifications-and-querydsl/
+GENEL:
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+DENEYİM
+* UPDATE de model mapper sağlıklı çalışmıyor. bu nedenle CLASS propertyleri elle taşımak durumunda kaldık.
+DTO-ENTITY elle taşıyoruz.
+ENTITY - DTO model mapper
