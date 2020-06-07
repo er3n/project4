@@ -21,7 +21,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
 @RestController
 @RequestMapping(value = RestPaths.NitKompliksyonTedaviRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class NitKompliksyonTedaviRest implements BaseRest<NitKompliksyonTedaviDto, Long> {
 
     @Autowired

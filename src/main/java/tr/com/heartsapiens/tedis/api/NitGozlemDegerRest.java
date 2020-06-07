@@ -25,7 +25,7 @@ import java.util.Date;
 @RestController
 @RequestMapping(value = RestPaths.NitGozlemDegerRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class NitGozlemDegerRest implements BaseRest<NitGozlemDegerDto, Long> {
 
     @Autowired

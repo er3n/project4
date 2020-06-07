@@ -2,12 +2,14 @@
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.Locale;
 
 
-	@SpringBootApplication
+@SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass=true)
 public class TedisApplication {
 
 	public static void main(String[] args) {

@@ -21,7 +21,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
 @RestController
 @RequestMapping(value = RestPaths.KurumKurulusRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class KurumKurulusRest implements BaseRest<KurumKurulusDto, Long> {
 
     @Autowired

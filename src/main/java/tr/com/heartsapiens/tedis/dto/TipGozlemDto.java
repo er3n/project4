@@ -14,7 +14,7 @@ import lombok.Data;
  *
  */
 @Data
-public class TipGozlemDto {
+public class TipGozlemDto  implements IBaseDto {
 
     private Long id;
  

@@ -9,7 +9,7 @@ import lombok.Data;
 
 
 @Data
-public class NitKompliksyonTedaviDto {
+public class NitKompliksyonTedaviDto  implements IBaseDto {
     private Long id;    
     private NitHastaKomplikasyonDto nitHastaKomplikasyon;
     private TipTedaviDto tipTedavi;

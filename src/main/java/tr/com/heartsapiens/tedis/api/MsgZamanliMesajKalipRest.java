@@ -25,7 +25,7 @@ import java.util.Date;
 @RestController
 @RequestMapping(value = RestPaths.MsgZamanliMesajKalipRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class MsgZamanliMesajKalipRest implements BaseRest<MsgZamanliMesajKalipDto, Long> {
 
     @Autowired

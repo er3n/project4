@@ -20,7 +20,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
  */
 @RestController
 @RequestMapping(value = RestPaths.SecProfileRest.Path)
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class SecProfileRest implements BaseRest<SecProfileDto, Long> {
 
     @Autowired

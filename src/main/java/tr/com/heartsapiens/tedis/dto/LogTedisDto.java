@@ -14,7 +14,7 @@ import lombok.Data;
  *
  */
 @Data
-public class LogTedisDto {
+public class LogTedisDto  implements IBaseDto {
 
     private Long id;
 

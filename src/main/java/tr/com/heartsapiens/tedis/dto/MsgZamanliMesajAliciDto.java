@@ -14,7 +14,7 @@ import lombok.Data;
  * 
  */
 @Data
-public class MsgZamanliMesajAliciDto {
+public class MsgZamanliMesajAliciDto  implements IBaseDto {
  
     private Long id;
     

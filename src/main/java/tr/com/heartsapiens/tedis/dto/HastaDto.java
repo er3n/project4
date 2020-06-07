@@ -16,7 +16,7 @@ import lombok.Data;
  *
  */
 @Data
-public class HastaDto {
+public class HastaDto implements IBaseDto {
     
 
     private Long id;

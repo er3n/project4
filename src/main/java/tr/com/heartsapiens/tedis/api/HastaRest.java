@@ -24,7 +24,7 @@ import java.util.Date;
  */
 @RestController
 @RequestMapping(value = RestPaths.HastaRest.Path)
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class HastaRest implements BaseRest<HastaDto, Long> {
 
 

@@ -15,7 +15,7 @@ import lombok.Data;
  *
  */
 @Data
-public class NitHastaCihazDto {
+public class NitHastaCihazDto  implements IBaseDto {
     private Long id;
     
     @NotNull

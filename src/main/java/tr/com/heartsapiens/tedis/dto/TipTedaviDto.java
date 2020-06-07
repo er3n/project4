@@ -13,7 +13,7 @@ import lombok.Data;
  *
  */
 @Data
-public class TipTedaviDto {
+public class TipTedaviDto  implements IBaseDto {
     private Long id;
     
      @Pattern(regexp = ".+")

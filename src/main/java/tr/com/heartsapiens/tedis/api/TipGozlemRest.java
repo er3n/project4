@@ -21,7 +21,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
 @RestController
 @RequestMapping(value = RestPaths.TipGozlemRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class TipGozlemRest implements BaseRest<TipGozlemDto, Long> {
 
     @Autowired

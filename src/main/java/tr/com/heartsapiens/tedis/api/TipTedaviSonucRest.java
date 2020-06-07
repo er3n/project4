@@ -21,7 +21,7 @@ import tr.com.heartsapiens.tedis.service.TipTedaviSonucService;
 @RestController
 @RequestMapping(value = RestPaths.TipTedaviSonucRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class TipTedaviSonucRest implements BaseRest<TipTedaviSonucDto, Long> {
 
     @Autowired

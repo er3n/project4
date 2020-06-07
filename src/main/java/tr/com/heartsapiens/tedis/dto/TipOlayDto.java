@@ -13,7 +13,7 @@ import lombok.Data;
  *
  */
 @Data
-public class TipOlayDto {
+public class TipOlayDto  implements IBaseDto {
 
     private Long id;
 

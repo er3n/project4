@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import tr.com.heartsapiens.tedis.dto.HastaDto;
-import tr.com.heartsapiens.tedis.dto.KurumKurulusDto; 
+import tr.com.heartsapiens.tedis.dto.KurumKurulusDto;
 import tr.com.heartsapiens.tedis.service.HastaService;
 
 @RunWith(SpringRunner.class)

@@ -16,7 +16,7 @@ import lombok.Data;
  *
  */
 @Data
-public class SecUserDto {
+public class SecUserDto  implements IBaseDto {
 
     private Long id;
 

@@ -12,7 +12,7 @@ import lombok.Data;
  *
  */
 @Data
-public class SecProfileDto {
+public class SecProfileDto  implements IBaseDto {
 
     private Long id;
     private String name;

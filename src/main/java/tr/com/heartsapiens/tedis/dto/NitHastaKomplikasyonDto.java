@@ -15,7 +15,7 @@ import lombok.Data;
  *
  */
 @Data
-public class NitHastaKomplikasyonDto {
+public class NitHastaKomplikasyonDto implements IBaseDto {
 
     private Long id;
 

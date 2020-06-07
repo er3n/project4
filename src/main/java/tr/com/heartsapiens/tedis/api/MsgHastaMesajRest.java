@@ -26,7 +26,7 @@ import java.util.Date;
  */
 @RestController
 @RequestMapping(value = RestPaths.MsgHastaMesajRest.Path)
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class MsgHastaMesajRest implements BaseRest<MsgHastaMesajDto, Long> {
 
     @Autowired

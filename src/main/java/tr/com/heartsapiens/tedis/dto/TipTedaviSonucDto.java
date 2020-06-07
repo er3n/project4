@@ -13,7 +13,7 @@ import lombok.Data;
  * @author ersin
  */
 @Data
-public class TipTedaviSonucDto {
+public class TipTedaviSonucDto  implements IBaseDto {
 
     private Long id;
 

@@ -22,7 +22,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
 @RestController
 @RequestMapping(value = RestPaths.TipOlayRest.Path)
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class TipOlayRest implements BaseRest<TipOlayDto, Long> {
 
     @Autowired

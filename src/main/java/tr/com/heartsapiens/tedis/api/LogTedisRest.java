@@ -23,7 +23,7 @@ import java.util.Date;
  */
 @RestController
 @RequestMapping(value = RestPaths.LogTedisRest.Path)
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class LogTedisRest implements BaseRest<LogTedisDto, Long> {
 
     @Autowired

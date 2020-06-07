@@ -15,7 +15,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import tr.com.heartsapiens.tedis.dto.HastaDto;
 import tr.com.heartsapiens.tedis.dto.MsgZamanliMesajAliciDto;
-import tr.com.heartsapiens.tedis.dto.MsgZamanliMesajKalipDto; 
+import tr.com.heartsapiens.tedis.dto.MsgZamanliMesajKalipDto;
 import tr.com.heartsapiens.tedis.service.MsgZamanliMesajAliciService;
 
 @RunWith(SpringRunner.class)

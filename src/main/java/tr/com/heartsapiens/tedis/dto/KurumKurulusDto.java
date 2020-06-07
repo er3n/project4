@@ -13,7 +13,7 @@ import lombok.Data;
  *
  */
 @Data
-public class KurumKurulusDto {
+public class KurumKurulusDto  implements IBaseDto {
 
    
     private Long id;

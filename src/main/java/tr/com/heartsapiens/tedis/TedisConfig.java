@@ -6,9 +6,9 @@
 package tr.com.heartsapiens.tedis;
 
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import tr.com.heartsapiens.tedis.util.Validator;
 
 import java.text.SimpleDateFormat;
