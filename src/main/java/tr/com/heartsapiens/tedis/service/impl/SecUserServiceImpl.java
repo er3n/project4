@@ -11,10 +11,12 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import tr.com.heartsapiens.tedis.dto.KurumKurulusDto;
-import tr.com.heartsapiens.tedis.dto.SecProfileDto;
 import tr.com.heartsapiens.tedis.dto.SecUserDto;
 import tr.com.heartsapiens.tedis.entity.KurumKurulus;
 import tr.com.heartsapiens.tedis.entity.SecProfile;
@@ -31,7 +33,11 @@ import tr.com.heartsapiens.tedis.service.TPage;
  */
 @Transactional
 @Service(value = "secUserService")
-public class SecUserServiceImpl implements SecUserService {
+public class SecUserServiceImpl implements SecUserService, UserDetailsService {
+
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @Autowired
     SecUserRepository secUserRepository;
@@ -41,7 +47,6 @@ public class SecUserServiceImpl implements SecUserService {
 
     @Autowired
     SecProfileRepository secProfileRepository;
-     
 
     @Autowired
     ModelMapper modelMapper;
@@ -55,9 +60,10 @@ public class SecUserServiceImpl implements SecUserService {
     @Override
     public SecUserDto save(SecUserDto entity) {
 
-
-
         SecUser dbentity = modelMapper.map(entity, SecUser.class);
+
+        String encryptedPassword = passwordEncoder.encode(entity.getPassword());
+        dbentity.setPassword(encryptedPassword);
 
         KurumKurulus kurumKurulus = kurumKurulusRepository.getOne(entity.getKurumKurulus().getId());
         dbentity.setKurumKurulus(kurumKurulus);
@@ -67,10 +73,10 @@ public class SecUserServiceImpl implements SecUserService {
         Set<SecProfile> profiles = new HashSet<>( secProfileRepository.findAllById(idList));
         dbentity.setProfileList(profiles);
 
-
-
-
         secUserRepository.save(dbentity);
+
+
+
         modelMapper.map(dbentity, entity);
 
         return entity;
@@ -192,5 +198,15 @@ public class SecUserServiceImpl implements SecUserService {
         result.setProcessDurationMs(b-a);
 
         return result;
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Optional<SecUser> secUser= secUserRepository.findByUsername(username);
+        if(!secUser.isPresent()) {
+            throw new UsernameNotFoundException("User with email " + username + " was not found in the database");
+        }
+        SecUserDto secUserDto = modelMapper.map(secUser.get(), SecUserDto.class);
+        return secUserDto;
     }
 }
