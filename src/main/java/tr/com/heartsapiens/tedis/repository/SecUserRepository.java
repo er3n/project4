@@ -16,6 +16,7 @@ import tr.com.heartsapiens.tedis.entity.SecProfile;
 import tr.com.heartsapiens.tedis.entity.SecUser;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  *
@@ -43,5 +44,7 @@ public interface SecUserRepository extends JpaRepository<SecUser,Long>{
                                           @Param("kurumKurulus") KurumKurulus kurumKurulus,
                                           @Param("profileList") List<SecProfile> profileList,
                                           @Param("enabledList") List<Boolean> enabledList);
+
+    Optional<SecUser> findByUsername(String username);
 
 }

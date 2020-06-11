@@ -54,7 +54,7 @@ public class SecUser extends BaseEntity {
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private  Set<SecProfile> profileList;
-    
+
     
     @JoinColumn(name = "kurum_kurulus_id")
     @ManyToOne(fetch = FetchType.LAZY)

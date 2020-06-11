@@ -13,6 +13,11 @@ public final class RestPaths {
 
     private static final String BASE_PATH = "/rest/v1";
 
+    public static final class JWTRest {
+
+        public static final String Path = BASE_PATH + "/jwt";
+    }
+
     public static final class HastaRest {
 
         public static final String Path = BASE_PATH + "/hasta";
