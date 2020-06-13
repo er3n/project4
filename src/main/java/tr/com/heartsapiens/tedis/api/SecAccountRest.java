@@ -10,6 +10,7 @@ import tr.com.heartsapiens.tedis.service.SecUserService;
 import tr.com.heartsapiens.tedis.service.impl.SecUserServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
+import java.security.Principal;
 
 @RestController
 @RequestMapping(value =  RestPaths.AccountRest.Path)
@@ -22,7 +23,8 @@ public class SecAccountRest {
     public String isAuthenticated(HttpServletRequest request) {
         return request.getRemoteUser();
     }
-    @GetMapping()
+
+    @GetMapping
     public ResponseEntity<SecUserDto> getAccount(HttpServletRequest request) {
 
         String remoteUser = request.getRemoteUser();
@@ -33,6 +35,17 @@ public class SecAccountRest {
         SecUserDto userDto = (SecUserDto) secUserService.loadUserByUsername(remoteUser);
         return ResponseEntity.ok(userDto);
     }
+
+    @PutMapping
+    public ResponseEntity<SecUserDto> updateAccount(Principal principal, SecUserDto request) {
+        SecUserDto prevUserInfo = (SecUserDto) secUserService.loadUserByUsername(principal.getName());
+        request.setId(prevUserInfo.getId());
+        request.setKurumKurulus(prevUserInfo.getKurumKurulus());
+        SecUserDto updatedUser = secUserService.update(request.getId(), request);
+        return ResponseEntity.ok(updatedUser);
+    }
+
+
 
 
 }

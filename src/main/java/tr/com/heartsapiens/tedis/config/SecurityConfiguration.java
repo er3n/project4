@@ -74,7 +74,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers(RestPaths.JWTRest.Path + "/**").permitAll()
                 .antMatchers(RestPaths.SecUserRest.Path + "/**").permitAll()
                 // .antMatchers("/rest/**").permitAll()
-                .antMatchers(RestPaths.AccountRest.Path +   "/**").permitAll()
+                .antMatchers(HttpMethod.GET, RestPaths.AccountRest.Path).permitAll()
                 .antMatchers("/rest/activate").permitAll()
                 //.antMatchers("/rest/**").authenticated()
                 .and()
