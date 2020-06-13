@@ -33,7 +33,7 @@ import tr.com.heartsapiens.tedis.service.TPage;
  */
 @Transactional
 @Service(value = "secUserService")
-public class SecUserServiceImpl implements SecUserService, UserDetailsService {
+public class SecUserServiceImpl implements SecUserService {
 
 
     @Autowired
